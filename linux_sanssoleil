@@ -1,0 +1,4 @@
+#!/bin/sh
+
+APPDIR=$(dirname "$0")
+java  -Djava.library.path="$APPDIR" -cp "$APPDIR/lib/sanssoleil.jar:$APPDIR/lib/core.jar:$APPDIR/lib/ritaWN.jar:$APPDIR/lib/supportWN.jar:$APPDIR/lib/rita.jar:$APPDIR/lib/ritatts.jar:$APPDIR/lib/support.jar" sanssoleil
